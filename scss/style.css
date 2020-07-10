@@ -371,7 +371,7 @@ h3 {
 
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#F91842+0,fd8e5e+100 */
-  background: #f22f46;
+  background: #3b75ff;
   color: #fff;
   display: inline-block;
   padding: 11px 29px 13px 29px;
@@ -380,10 +380,12 @@ h3 {
   font-weight: 500;
   border: 0;
   border: 1px solid transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   text-align: center;
   color: #fff !important;
   text-transform: capitalize;
+  -webkit-box-shadow: 10px 10px 26px -11px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 26px -11px rgba(0, 0, 0, 0.47);
   -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
@@ -404,7 +406,7 @@ h3 {
   font-family: "Arimo", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  border-radius: 2px;
+  border-radius: 5px;
   text-align: center;
   color: #fff !important;
   text-transform: capitalize;
@@ -1212,7 +1214,7 @@ h3 {
 
 .slider_area .single_slider .slider_text h4 {
   font-family: "Arimo", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 74px;
   margin-bottom: 40px;
@@ -1221,7 +1223,7 @@ h3 {
 
 @media (max-width: 767px) {
   .slider_area .single_slider .slider_text h4 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 30px;
     line-height: 45px;
   }
@@ -1229,7 +1231,7 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .slider_area .single_slider .slider_text h4 {
-    font-size: 34px;
+    font-size: 24px;
     line-height: 1.4;
     margin-bottom: 35px;
   }
@@ -1237,14 +1239,14 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider_area .single_slider .slider_text h4 {
-    font-size: 40px;
+    font-size: 20px;
     line-height: 1.4;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   .slider_area .single_slider .slider_text h4 {
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 50px;
   }
